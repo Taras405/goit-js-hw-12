@@ -26,6 +26,7 @@ window.addEventListener("keydown", (event) => {
 
       const newGameBtn = document.createElement("button");
       newGameBtn.textContent = `Нова гра`;
+      newGameBtn.classList.add('newGameBtn')
       game.appendChild(newGameBtn);
 
       newGameBtn.addEventListener("click", () => {

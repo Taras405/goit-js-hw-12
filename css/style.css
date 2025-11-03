@@ -9,3 +9,17 @@
   color: aqua;
   box-shadow: inset 5px 1px 10px 1px rgb(255, 77, 0);
 }
+.newGameBtn {
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: inset -5px -5px 10px 1px rgb(255, 0, 0);
+    transition: 250ms linear;
+}
+
+.newGameBtn:hover {
+    transition: 250ms linear;
+    transform: scale(1.2);
+}
